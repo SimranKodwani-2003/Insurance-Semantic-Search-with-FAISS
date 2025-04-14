@@ -1,5 +1,5 @@
 streamlit
 faiss-cpu
-# add other dependencies here, like:
 numpy
 pandas
+# Add any other libraries your app needs
