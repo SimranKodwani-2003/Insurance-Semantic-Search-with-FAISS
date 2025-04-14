@@ -3,3 +3,4 @@ faiss-cpu
 # add other dependencies here, like:
 numpy
 pandas
+sentence-transformers
