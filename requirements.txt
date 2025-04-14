@@ -1,6 +1,5 @@
 streamlit
-faiss-cpu
-# add other dependencies here, like:
-numpy
 pandas
+numpy
+faiss-cpu
 sentence-transformers
