@@ -1,9 +1,5 @@
 streamlit
-faiss-cpu
-numpy
 pandas
-# Add any other libraries your app needs
-faiss-gpu
-sentence-transformers
+numpy
 faiss-cpu
-scikit-learn
+sentence-transformers
