@@ -3,3 +3,7 @@ faiss-cpu
 numpy
 pandas
 # Add any other libraries your app needs
+faiss-gpu
+sentence-transformers
+faiss-cpu
+scikit-learn
