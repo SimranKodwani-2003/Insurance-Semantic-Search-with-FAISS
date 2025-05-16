@@ -23,10 +23,10 @@ smoker_filter = st.sidebar.selectbox("Smoker", ["All", "yes", "no"])
 region_filter = st.sidebar.selectbox("Region", ["All", "northeast", "northwest", "southeast", "southwest"])
 
 # Search input
-st.title("🧠 Insurance Semantic Search with FAISS")
+st.title("Insurance Semantic Search with FAISS")
 query = st.text_input("Enter your query:", "smoker with high charges and 2 children")
 
-top_k = st.slider("Number of results:", 1, 50, 5)
+top_k = st.slider("Number of results:", 1, 10, 5)
 
 def search_faiss_filtered(query, top_k, sex_filter, smoker_filter, region_filter):
     query_vec = model.encode([query])
